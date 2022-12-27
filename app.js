@@ -5,7 +5,7 @@ const bodyParser = require("body-parser");
 const ejs = require("ejs");
 const _ = require("lodash");
 const mongoose = require("mongoose");
-mongoose.connect('mongodb://localhost:27017/blogDB',{useNewUrlParser: true});
+mongoose.connect('mongodb+srv://admin-stefanobg:steve1@todolist.1jth2cc.mongodb.net/todolistDB',{useNewUrlParser: true});
 
 const postSchema = new mongoose.Schema({
   title: String,
